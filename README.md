@@ -11,7 +11,7 @@ In order to execute and get some info from original PE EXE file (for example, ca
 Source file information:
 -------------------------
 
-* cprotector.cpp - a simple GUI app that allows to choose a file in which to install the "protector" section
+* cprotector.cpp - a <em>VERY</em> simple GUI app that allows to choose a file in which to install the "protector" section
 * protector_core.cpp - core logics for cprotector.cpp
 * pe_commons.cpp - parser logics for PE EXE format (headers extractor, etc)
 * protector.asm - MASM32 source of "protector" section. Used to check a set of file attributes and then delegate control to original EXE entry point
